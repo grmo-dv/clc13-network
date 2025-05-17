@@ -3,7 +3,7 @@ resource "aws_vpc" "minha_vpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "grmo-tf-vpc-automation"
+    Name = "tf-vpc-grmo"
   }
 }
 
